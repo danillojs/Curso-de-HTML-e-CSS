@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2 {
+    font: bold 2em "Noto Sans", sans-serif;
+}
+
+p {
+    font: normal 1em "Noto Sans", sans-serif;
+    text-align: justify;
+}

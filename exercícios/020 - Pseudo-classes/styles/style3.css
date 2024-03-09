@@ -1,0 +1,26 @@
+ 
+ a {
+     color: green;
+     text-decoration: none;
+ }
+ 
+ a:visited {
+     darkgreen
+ }
+ 
+ a:hover {
+     color: #22451f;
+     text-decoration: underline;
+ }
+ 
+ a:active {
+     color: yellow;
+ }
+ 
+ a::after {
+     content: ' link';
+ }
+ 
+ a::before {
+     content: '> ';
+ }

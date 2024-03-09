@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap");
+
+@font-face {
+    font-family: "Droid";
+    src: url("/fonts/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bg-color: #86deab;
+    --secundary-color: #3bd27f;
+    --titles-color: #1a5c38;
+    --bg-titles: #adedca;
+    
+    --box-shadows: 0 0 7px #00000068;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--secundary-color), var(--titles-color));
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 3px #00000055;
+    box-shadow: var(--box-shadows);
+}
+
+h1#logo {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+header > p {
+    padding: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-indent: 0;
+}
+
+nav {
+    text-align: left;
+    padding: 7px;
+}
+
+nav > a {
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    max-width: 800px;
+    min-width: 300px;
+    background: white;
+    margin: auto;
+    padding: 15px;
+    box-shadow: var(--box-shadows);
+}
+
+.titles-styles {
+    font-family: "Droid", helvetica, Sans-Serif;
+    color: var(--titles-color);
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+h2 {
+    background-image: linear-gradient(to right, var(--bg-titles), white);
+    font-size: 1.2em;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    margin: auto;
+}
+
+img#bugdroid {
+    width: 40%;
+}
+
+section#video {
+    display: block;
+    background: var(--titles-color);
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+iframe {
+    width: 100%;
+}
+
+h3#title-sumary {
+    color: white;
+    background: var(--titles-color);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+aside#sumary {
+    width: 100%;
+    border-radius: 10px;
+    background: var(--bg-titles);
+    margin: auto;
+    font-weight: 500;
+}
+
+aside#sumary > p {
+    padding: 10px;
+}
+
+article#more {
+    width: 100%;
+    display: flex;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+}
+
+footer {
+    background: var(--titles-color);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer > span {
+    font-weight: 500;
+}
+
+.link {
+    font-weight: 500;
+    color: var(--titles-color);
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midias</title>
+    </head>
+    <body>
+        <h1>Imagens dinâmicas</h1>
+        <picture>
+            <source srcset="assets/img-p.png" media="(max-width: 500px)">
+            <source srcset="assets/img-m.png" media="(max-width: 1050px)" />
+            <img src="assets/img-g.png" alt="Imagem grande" />
+        </picture>
+        
+        <h2>Reproduzndo áudio</h2>
+        <audio preload="metadata" controls>
+            <source src="midia/audio.aac" type="audio/aac"/>
+            <source src="midia/audio.mp3" type="audio/mpeg"/>
+            <source src="midia/audio.wav" type="audio/wav"/>
+            <p>Infeliz seu navegador não é compatível com reprodução de áudio, mas você pode baixa-lo <a href="midia/audio.aac" download="audio.aac">Clicando aqui</a>.</p>
+        </audio>
+    </body>
+</html>

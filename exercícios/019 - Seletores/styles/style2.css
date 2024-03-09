@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+body {
+    font-family: Sans-Serif;
+    background: #b6c1ff;
+}
+
+h1#principal {
+    text-align: center;
+    background: #d3daff;
+    color: #2a3679;
+}
+
+h2 {
+    color: #2a3679;
+}
+
+.destaque {
+    background: #c2c791;
+}
+
+.secundario {
+    color: #44823d;
+}

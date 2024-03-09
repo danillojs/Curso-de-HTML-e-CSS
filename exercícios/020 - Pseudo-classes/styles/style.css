@@ -1,0 +1,17 @@
+
+body {
+    text-align: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: lightgray;
+    display: inline-block;
+    border: solid black;
+    transition: 0.5s linear;
+}
+
+div:hover {
+    background-color: yellow;
+}
