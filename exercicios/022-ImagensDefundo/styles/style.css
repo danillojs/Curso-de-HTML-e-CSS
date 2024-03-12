@@ -6,11 +6,16 @@
 
 body {
     height: 100vh;
-    background: black;
-    background-image: url('images/wallpaper002.jpg');
-    background-position: center center;
+    background: black url('/images/wallpaper002.jpg') 
+        center center 
+        no-repeat 
+        fixed
+    ;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* shorthand - background
+        color > image > position > repeat > size
+        > attachment
+    */
 }
 
 main {
