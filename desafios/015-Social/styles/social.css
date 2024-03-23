@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    background: darkred;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    background: red;
+}

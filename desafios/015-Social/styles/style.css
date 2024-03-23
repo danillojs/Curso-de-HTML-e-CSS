@@ -11,7 +11,6 @@ html, body {
     height: 100vh;
 }
 
-
 body { /* background page styles */
     background: url("../assets/images/fundo-madeira.jpg") /* import the background */
                     no-repeat top center;
@@ -31,8 +30,35 @@ section#phone { /* section of the phone styles */
     left: 50%;
     transform: translate(-50%, -50%); /* centralize the contain */
     width: 311px;
-    height: 621px;
+    height: 661px;
     background: url("../assets/images/frame-iphone.png") /* asset phone */
                     no-repeat center center;
     background-size: cover;
+}
+
+iframe#tela {
+    position: relative;
+    top: 87px;
+    left: 17px;
+    width: 278px;
+    height: 493px;
+}
+
+section#menu {
+    float: right;
+}
+
+section#menu img {
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    z-index: 1;
+}
+
+section#menu img:hover {
+    transform: translate(-5px, -5px);
+    border: 2px solid #ffffffcb;
+    transition: 0.4s;
 }
