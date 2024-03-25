@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form action="cadastro.js" method="get" accept-charset="utf-8">
+            <fieldset>
+                <legend>Formulário</legend>
+                <label for="iemail">Email: </label>
+                <input type="email" name="email" id="iemail" placeholder="exemplo@gmail.com" required/>
+                <label for="iphone">Phone: </label>
+                <input type="tel" name="phone" id="iphone" placeholder="(xx) xxxx-xxxx" required/>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Reset" />
+            </p>
+        </form>
+    </body>
+</html>

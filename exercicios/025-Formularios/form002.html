@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Formulário</h1>
+        <form action="cadastro.js" method="POST" accept-charset="utf-8">
+            <p>
+                <input
+                    type="text"
+                    id="iuser"
+                    placeholder="Nome"
+                    size="15"
+                    maxlength="15"
+                    minlength="3"
+                    required />
+            </p>
+            <p>
+                <input
+                    type="number"
+                    id="inote"
+                    placeholder="Nota"
+                    step="0.1"
+                    size="15"
+                    maxlength="15"
+                    required />
+            </p>
+            <p>
+                <label for="imes">Mês: </label>
+                <input
+                    type="month"
+                    name="mes"
+                    id="imes"
+                    value="2024-03"
+                    required />
+            </p>
+            <p>
+                <label for="idata">Data</label>
+                <input
+                    type="date"
+                    name="data"
+                    id="idata"
+                    value="2020-03-24"
+                    required />
+            </p>
+            <p>
+                <label for="itime">time</label>
+                <input type="time" name="time" id="itime" value="10" required />
+            </p>
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpar" />
+            </p>
+        </form>
+    </body>
+</html>

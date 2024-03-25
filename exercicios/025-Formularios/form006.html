@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form action="cad.js" method="POST" accept-charset="utf-8">
+            <label for="isel">Consoles: </label>
+            <select name="sel" id="isel">
+                <optgroup label="Sony">
+                    <option value="PSP">Playstation Portable</option>
+                    <option value="PS4">Playstation 4</option>
+                    <option value="PS5">Playstation 5</option>
+                </optgroup>
+                <optgroup label="Nintendo">
+                    <option value="NES">Nintendo</option>
+                    <option value="SNES">Super Nintendo</option>
+                    <option value="NDS">Nintendo DS</option>
+                </optgroup>
+            </select>
+            <p>
+            <label for="itext">text</label>
+                <input type="text" name="text" id="itext" list="lista" />
+                <datalist id="lista">
+                    <option>Ex 1</option>
+                    <option>Ex 2</option>
+                    <option>Ex 3</option>
+                    <option>Ex 4</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="itexta">Mensagem</label>
+                <textarea name="texta" id="itexta" rows="8" cols="40"></textarea>
+            </p>
+        </form>
+    </body>
+</html>
